@@ -12,3 +12,13 @@ class arithmetic
         System.out.println(sum =num / factor);
     }
 }
+class assigningValues
+{
+    public static void main(String[] args)
+    {
+        String txt = "Super ";
+        String lang = "Java";
+        txt += lang;
+        System.out.println(txt);
+    }
+}
