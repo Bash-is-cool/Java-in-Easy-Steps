@@ -20,5 +20,10 @@ class assigningValues
         String lang = "Java";
         txt += lang;
         System.out.println(txt);
+        int sum = 10;
+        int num = 20;
+        sum += num; //+= adds the values and assigns the sum to the first variable//
+        System.out.println(sum);
     }
 }
+ssss
