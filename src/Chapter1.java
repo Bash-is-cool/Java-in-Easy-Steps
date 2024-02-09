@@ -1,3 +1,12 @@
+// The following code is everything that is contained insie Java in Easy Steps by Mike Mcgrath. Before starting, read the comments to understad the code
+
+//NOTE: It is Important to always add semi colons to the end of your code Unless it is following a curly brace.
+
+/*
+This code creates a class called Hello. Inside it has a main method. This method allows all the code inside its curly braces to run. inside these braces,
+We use System.out.println() to print the message Hello World.
+***Important*** id you try to use a string data type, you must use double qoutes.
+*/
 class Hello
 {
 public static void main ( String[] args )
@@ -5,6 +14,10 @@ public static void main ( String[] args )
     System.out.println("Hello World");
 }
 }
+/*
+This creates a variable called message of the String data type and sets it equal to "Initial value". It then prints message to the terminal.
+After it prints, it changes message and sets it equal to "Modified Value". It then prints it to the Terminal.
+*/
 class FirstVariable
 {
     public static void main(String[] args)
@@ -15,6 +28,10 @@ class FirstVariable
     System.out.println(message);
     }
 }
+/*
+In java, there are multiple different daa types you can use to declare variables. Below, it ccreates a variable with each one and prints it.
+Char: One character. surronded by single qoutes(''). String: Words. Surronded by double qoutes(""). int: Numbers. Short for Integer. float: Decimals. Boolean: True or false.
+*/
 class DataTypes
 {
     public static void main(String[] args)
@@ -31,6 +48,9 @@ class DataTypes
         System.out.println("Answer is " + result);
     }
 }
+/*
+This code uses the final keyword to lock the variables as those asigned values. If you try to change these values later, you will get an error.
+*/
 class Constants
 {
     public static void main(String[] args) {
