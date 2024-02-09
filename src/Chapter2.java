@@ -1,5 +1,5 @@
 /*
-The below creates 3 integers and sets them equal to 100, 20, and 0. It then adds, subtracts, multiplys, and divides num and factor and sets it equal to sum.
+The below code creates 3 integers and sets them equal to 100, 20, and 0. It then adds, subtracts, multiplys, and divides num and factor and sets it equal to sum.
 */
 class arithmetic
 {
