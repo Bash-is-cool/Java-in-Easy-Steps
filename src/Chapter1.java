@@ -1,3 +1,7 @@
+//BEFORE STARTING: Download a Java IDE like Intellij or Android Studio
+
+
+
 // The following code is everything that is contained insie Java in Easy Steps by Mike Mcgrath. Before starting, read the comments to understad the code
 
 //NOTE: It is Important to always add semi colons to the end of your code Unless it is following a curly brace.
@@ -5,7 +9,7 @@
 /*
 This code creates a class called Hello. Inside it has a main method. This method allows all the code inside its curly braces to run. inside these braces,
 We use System.out.println() to print the message Hello World.
-***Important*** id you try to use a string data type, you must use double qoutes.
+***Important*** if you try to use a string data type, you must use double qoutes.
 */
 class Hello
 {
