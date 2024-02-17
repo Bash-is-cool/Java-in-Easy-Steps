@@ -5,7 +5,7 @@
 /*
 This code creates a class called Hello. Inside it has a main method. This method allows all the code inside its curly braces to run. inside these braces,
 We use System.out.println() to print the message Hello World.
-***Important*** id you try to use a string data type, you must use double qoutes.
+***Important*** if you try to use a string data type, you must use double quotes.
 */
 class Hello
 {
@@ -29,8 +29,8 @@ class FirstVariable
     }
 }
 /*
-In java, there are multiple different daa types you can use to declare variables. Below, it ccreates a variable with each one and prints it.
-Char: One character. surronded by single qoutes(''). String: Words. Surronded by double qoutes(""). int: Numbers. Short for Integer. float: Decimals. Boolean: True or false.
+In java, there are multiple different daa types you can use to declare variables. Below, it creates a variable with each one and prints it.
+Char: One character. surrounded by single quotes(''). String: Words. Surrounded by double quotes(""). int: Numbers. Short for Integer. float: Decimals. Boolean: True or false.
 */
 class DataTypes
 {
