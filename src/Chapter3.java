@@ -1,3 +1,6 @@
+/*
+If statements check to see if something is true. If it is, then it will run what is in its curly braces. If false, it will skip over the code block
+*/
 class If
 {
     public static void main(String[] args) {
@@ -12,6 +15,9 @@ class If
         );
     }
 }
+/*
+Else if adds on to the if statements. It runs the code in its curly braces if the statement in its parenthesis is true.
+*/
 class Else
 {
     public static void main(String[] args) {
@@ -24,12 +30,15 @@ class Else
         }
     }
 }
-
+/*
+Switch runs through multiple cases until it finds one that is true and runs the code that follows it. Each Case must be followed by a break keyword. if code is not, it will run
+the next cases code.
+*/
 class Switch
 {
     public static void main(String[] args) {
         int month = 2, year = 2024, num =31;
-        switch ( month)
+        switch (month)
         {
             case 4 : case 6 : case 9 : case 11 : num = 30; break;
             case 2 : num = (year % 4 == 0) ? 29 : 28; break;
@@ -37,7 +46,10 @@ class Switch
         System.out.println(month + "/" + year + "/" + num + "days");
     }
 }
-
+/*
+For is a type of loop. it creates an iteration value(Usally called i) and runs until the second section is met. the third section in a for statement adds 1 to the iterator so you 
+don't get an infinite loop. for loops can be put inside other loops like shown below.
+*/
 class For
 {
     public static void main(String[] args) {

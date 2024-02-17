@@ -1,4 +1,6 @@
-// This is learning how arithmetic works
+/*
+The below code creates 3 integers and sets them equal to 100, 20, and 0. It then adds, subtracts, multiplys, and divides num and factor and sets it equal to sum.
+*/
 class arithmetic
 {
     public static void main(String[] args)
@@ -9,9 +11,12 @@ class arithmetic
         System.out.println(sum = num + factor);
         System.out.println(sum = num - factor);
         System.out.println(sum = num * factor);
-        System.out.println(sum =num / factor);
+        System.out.println(sum = num / factor);
     }
 }
+/*
+Below, 2 strings are created and added together and set equal to txt. The same thing happens with the 2 int variables.
+*/
 class assigningValues
 {
     public static void main(String[] args)
@@ -22,20 +27,23 @@ class assigningValues
         System.out.println(txt);
         int sum = 10;
         int num = 20;
-        sum += num; //+= adds the values and assigns the sum to the first variable//
+        sum += num; //+= adds the values and assigns the sum to the first variable
         System.out.println(sum);
     }
 }
+/*
+below, Booleans result to result6 are created and set equal to something. yes and no = true and false respectively.
+*/
 class assessingLogic
 {
     public static void main(String[] args)
     {
-        boolean yes = true, no = false;
-        boolean result = (yes && yes);
+        boolean yes = true, no = false; // Creates yes and no
+        boolean result = (yes && yes); // && checks to see if both arguments are true
         System.out.println(result);
         boolean result2 = (yes && no);
         System.out.println(result2);
-        boolean result3 = (yes || yes);
+        boolean result3 = (yes || yes); // || checks to see if either are true
         System.out.println(result3);
         boolean result4 = (yes || no);
         System.out.println(result4);
@@ -43,10 +51,13 @@ class assessingLogic
         System.out.println(result5);
         boolean result6 = yes;
         System.out.println(result6);
-        result6 = !yes;
+        result6 = !yes; // ! changes the result to the opposite. In this case, since yes = true, yes becomes false
         System.out.println(result6);
     }
 }
+/*
+The code below creates 2 numbers and 2 result variables. the % (modulo) takes the remainder. ? : tells us if true, then print "Odd". If false then print "Even".
+*/
 class examiningConditions
 {
     public static void main(String[] args)
@@ -70,6 +81,9 @@ class settingPrecedence
         System.out.println(sum);
     }
 }
+/*
+\ Is the escape operator. it adds a special character to the line of code. \n is new line. \t is tap or indent. 
+*/
 class escape
 {
     public static void main(String[] args)
@@ -84,6 +98,9 @@ class escape
 
     }
 }
+/*
+BitWise is rarely used and very hard to understand. Below is an example but for a more in depth lesson on it. Read Java in Easy Steps or search it up.
+*/
 class bitwise
 {
     public static void main(String[] args)
