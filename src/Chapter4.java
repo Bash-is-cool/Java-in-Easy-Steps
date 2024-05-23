@@ -18,7 +18,7 @@ class convert
 This code creates a new array called str that holds the stuff in the curly braces ({})
 It also creates an array called num with 3 empty indexes. ***Important*** Indexes start at 0
 It adds 100 and 200 to index [0] and index [1]
-It then print everything out
+It then prints everything out
  */
 class Array
 {

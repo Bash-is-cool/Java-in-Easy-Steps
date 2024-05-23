@@ -43,11 +43,11 @@ class Switch
             case 4 : case 6 : case 9 : case 11 : num = 30; break;
             case 2 : num = (year % 4 == 0) ? 29 : 28; break;
         }
-        System.out.println(month + "/" + year + "/" + num + "days");
+        System.out.println(month + "/" + year + "/" + num + " days");
     }
 }
 /*
-For is a type of loop. it creates an iteration value(Usally called i) and runs until the second section is met. the third section in a for statement adds 1 to the iterator so you 
+For is a type of loop. it creates an iteration value (Usually called i) and runs until the second section is met. the third section in a for statement adds 1 to the iterator so you
 don't get an infinite loop. for loops can be put inside other loops like shown below.
 */
 class For
@@ -124,7 +124,7 @@ class Label
                 System.out.println("Running i = " + i + " j = " + j);
                 if (i == 1 && j == 1)
                 {
-                    System.out.println("Continues outerLoop when i = " + i + "j = " + j);
+                    System.out.println("Continues outerLoop when i = " + i + " j = " + j);
                     continue outerLoop;
                     //Works for the break statement too
                 }

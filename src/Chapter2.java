@@ -56,7 +56,7 @@ class assessingLogic
     }
 }
 /*
-The code below creates 2 numbers and 2 result variables. the % (modulo) takes the remainder. ? : tells us if true, then print "Odd". If false then print "Even".
+The code below creates 2 numbers and 2 result variables. the % (modulus) takes the remainder. ? : tells us if true, then print "Odd". If false then print "Even".
 */
 class examiningConditions
 {
@@ -82,7 +82,7 @@ class settingPrecedence
     }
 }
 /*
-\ Is the escape operator. it adds a special character to the line of code. \n is new line. \t is tap or indent. 
+\ Is the escape operator. it adds a special character to the line of code. \n is new line. \t is tab or indent.
 */
 class escape
 {

@@ -29,7 +29,7 @@ class FirstVariable
     }
 }
 /*
-In java, there are multiple different daa types you can use to declare variables. Below, it ccreates a variable with each one and prints it.
+In java, there are multiple different daa types you can use to declare variables. Below, it creates a variable with each one and prints it.
 Char: One character. surronded by single qoutes(''). String: Words. Surronded by double qoutes(""). int: Numbers. Short for Integer. float: Decimals. Boolean: True or false.
 */
 class DataTypes
