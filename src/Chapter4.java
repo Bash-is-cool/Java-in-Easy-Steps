@@ -37,8 +37,9 @@ class Array
 /*
 This code sets the args to what you put it as. It must be run in the terminal for it to work.
 Steps for running:
-1. Compile Option: type javac Chapter4.java to compile the code
-2. Type java Option ____ (add an argument for args[0]) in the terminal to test
+1. type cd src and click enter
+2. Compile Option: type javac Chapter4.java to compile the code
+3. Type java Option ____ (add an argument for args[0]) in the terminal to test
  */
 class Option
 {
@@ -53,5 +54,28 @@ class Option
         {
             System.out.println("Unrecognized option");
         }
+    }
+}
+
+class Args {
+    public static void main(String[] args) {
+        if(args.length !=3)
+        {
+            System.out.println("Wrong Number of Arguments!");
+            return;
+        }
+        int num1 = Integer.parseInt(args[0]);
+        int num2 = Integer.parseInt(args[2]);
+        String msg = args[0] + args[1] + args[2] + "=";
+        if (args[1].equals("+")){
+            msg += (num1 + num2);
+        } else if (args[1].equals("-")) {
+            msg += (num1 - num2);
+        } else if (args[1].equals("x")) {
+            msg += (num1 * num2);
+        } else if (args[1].equals("/")){
+            msg += (num1 / num2);
+        } else msg = "Incorrect Operator";
+        System.out.println(msg);
     }
 }
