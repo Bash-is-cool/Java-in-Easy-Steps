@@ -57,6 +57,14 @@ class Option
     }
 }
 
+/*
+This code sets the args to what you put it as. It must be run in the terminal for it to work.
+Steps for running:
+1. type cd src and click enter
+2. Compile Option: type javac Chapter4.java to compile the code
+3. Type java Args ____ (add an argument for args[0], args[1], and args[2]) in the terminal to test
+ */
+
 class Args {
     public static void main(String[] args) {
         if(args.length !=3)
@@ -66,16 +74,32 @@ class Args {
         }
         int num1 = Integer.parseInt(args[0]);
         int num2 = Integer.parseInt(args[2]);
-        String msg = args[0] + args[1] + args[2] + "=";
-        if (args[1].equals("+")){
+        String msg = args[0] + args[1] + args[2] + " = ";
+        if (args[1].equals(" + ")){
             msg += (num1 + num2);
-        } else if (args[1].equals("-")) {
+        } else if (args[1].equals(" - ")) {
             msg += (num1 - num2);
-        } else if (args[1].equals("x")) {
+        } else if (args[1].equals(" x ")) {
             msg += (num1 * num2);
-        } else if (args[1].equals("/")){
+        } else if (args[1].equals(" / ")){
             msg += (num1 / num2);
         } else msg = "Incorrect Operator";
         System.out.println(msg);
+    }
+}
+
+class Loops {
+    public static void main(String[] args) {
+       if (args.length > 0) {
+            for (int i = 0; i < args.length; i++) {
+                System.out.println("args[" + i + "] is |" + args[i]);
+            }
+            String[] htm = {"HTML", "in", "easy", "steps"};
+            int j = 0;
+            while (j < htm.length) {
+                System.out.println("htm[" + j + "] is |" + htm[j]);
+                j++;
+            }
+        }
     }
 }
